@@ -1,12 +1,53 @@
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
 }
 
 h1 {
   font-family: 'Pacifico', cursive;
 }
 
+img {
+  width: 100% !important;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
 nav.navbar.navbar-default {
   margin-bottom: 0;
+}
+
+#preview {
+  padding: 10px;
+}
+
+.delete {
+  display: inline;
+}
+
+#landing {
+  background: linear-gradient(
+      rgba(255,255,255,0.5),
+      rgba(255,255,255,0.5)
+    ), url('https://res.cloudinary.com/dd6kwd0zn/image/upload/v1503420599/jan-kahanek-184676_2_i89ig8.jpg') center center no-repeat fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+#landing .jumbotron {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 0;
+}
+
+.list-group-item {
+  background-color: #4f4e4e;
+  color: white;
+}
+
+.btn {
+  margin:5px;
 }

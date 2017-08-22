@@ -1,0 +1,230 @@
+[22-Aug-2017 04:23:04 UTC] PHP Notice:  Undefined index: username in /home/ncabelin21/public_html/markdown/index.php on line 12
+[22-Aug-2017 04:23:04 UTC] PHP Notice:  Undefined index: username in /home/ncabelin21/public_html/markdown/index.php on line 29
+[22-Aug-2017 04:23:20 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/login.php on line 28
+[22-Aug-2017 04:23:20 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/login.php on line 56
+[22-Aug-2017 04:36:06 UTC] PHP Notice:  Undefined index: username in /home/ncabelin21/public_html/markdown/index.php on line 12
+[22-Aug-2017 04:36:06 UTC] PHP Notice:  Undefined index: username in /home/ncabelin21/public_html/markdown/index.php on line 29
+[22-Aug-2017 04:36:15 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/login.php on line 28
+[22-Aug-2017 04:36:15 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/login.php on line 56
+[22-Aug-2017 07:32:15 UTC] PHP Notice:  Undefined index: username in /home/ncabelin21/public_html/markdown/index.php on line 12
+[22-Aug-2017 07:32:15 UTC] PHP Notice:  Undefined index: username in /home/ncabelin21/public_html/markdown/index.php on line 29
+[22-Aug-2017 07:32:15 UTC] PHP Notice:  Undefined index: username in /home/ncabelin21/public_html/markdown/index.php on line 12
+[22-Aug-2017 07:32:15 UTC] PHP Notice:  Undefined index: username in /home/ncabelin21/public_html/markdown/index.php on line 29
+[22-Aug-2017 07:32:20 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/login.php on line 28
+[22-Aug-2017 07:32:20 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/login.php on line 56
+[22-Aug-2017 07:33:01 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/login.php on line 56
+[22-Aug-2017 07:33:14 UTC] PHP Notice:  Undefined variable: message in /home/ncabelin21/public_html/markdown/login.php on line 53
+[22-Aug-2017 07:33:14 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/login.php on line 56
+[22-Aug-2017 07:33:14 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 07:33:14 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 07:33:20 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/add_blog.php on line 45
+[22-Aug-2017 07:37:07 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/add_blog.php on line 45
+[22-Aug-2017 07:37:07 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 07:37:21 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 07:40:10 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 07:43:42 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 07:43:46 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 07:43:50 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 07:43:50 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 07:43:57 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/add_blog.php on line 45
+[22-Aug-2017 07:44:03 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/add_blog.php on line 45
+[22-Aug-2017 07:44:03 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 07:44:12 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 07:50:05 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 07:56:36 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 07:56:36 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 07:56:41 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 07:56:44 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/add_blog.php on line 45
+[22-Aug-2017 07:56:55 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/add_blog.php on line 45
+[22-Aug-2017 07:56:55 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 07:56:58 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:08:10 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:08:10 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 08:08:13 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:08:15 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:08:15 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 08:08:18 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/edit_blog.php on line 33
+[22-Aug-2017 08:08:18 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/edit_blog.php on line 34
+[22-Aug-2017 08:08:23 UTC] PHP Notice:  Undefined variable: message in /home/ncabelin21/public_html/markdown/edit_blog.php on line 56
+[22-Aug-2017 08:08:23 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/edit_blog.php on line 59
+[22-Aug-2017 08:08:23 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:11:10 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:11:10 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 08:11:11 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:12:52 UTC] PHP Notice:  Undefined index: id in /home/ncabelin21/public_html/markdown/read.php on line 7
+[22-Aug-2017 08:12:52 UTC] PHP Notice:  Undefined variable: title in /home/ncabelin21/public_html/markdown/read.php on line 52
+[22-Aug-2017 08:12:52 UTC] PHP Notice:  Undefined variable: author in /home/ncabelin21/public_html/markdown/read.php on line 53
+[22-Aug-2017 08:12:52 UTC] PHP Notice:  Undefined variable: str_date in /home/ncabelin21/public_html/markdown/read.php on line 53
+[22-Aug-2017 08:12:52 UTC] PHP Notice:  Undefined variable: content in /home/ncabelin21/public_html/markdown/read.php on line 55
+[22-Aug-2017 08:12:52 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:13:07 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:13:10 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:13:13 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:13:14 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:13:14 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:13:29 UTC] PHP Notice:  Undefined index: username in /home/ncabelin21/public_html/markdown/index.php on line 12
+[22-Aug-2017 08:13:29 UTC] PHP Notice:  Undefined index: username in /home/ncabelin21/public_html/markdown/index.php on line 29
+[22-Aug-2017 08:13:30 UTC] PHP Notice:  Undefined index: username in /home/ncabelin21/public_html/markdown/index.php on line 12
+[22-Aug-2017 08:13:30 UTC] PHP Notice:  Undefined index: username in /home/ncabelin21/public_html/markdown/index.php on line 29
+[22-Aug-2017 08:15:53 UTC] PHP Notice:  Undefined index: username in /home/ncabelin21/public_html/markdown/index.php on line 12
+[22-Aug-2017 08:15:53 UTC] PHP Notice:  Undefined index: username in /home/ncabelin21/public_html/markdown/index.php on line 29
+[22-Aug-2017 08:15:59 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/login.php on line 28
+[22-Aug-2017 08:15:59 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/login.php on line 56
+[22-Aug-2017 08:16:42 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/login.php on line 56
+[22-Aug-2017 08:16:49 UTC] PHP Notice:  Undefined variable: message in /home/ncabelin21/public_html/markdown/login.php on line 53
+[22-Aug-2017 08:16:56 UTC] PHP Notice:  Undefined variable: message in /home/ncabelin21/public_html/markdown/login.php on line 53
+[22-Aug-2017 08:16:56 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/login.php on line 56
+[22-Aug-2017 08:16:56 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:16:56 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 08:16:58 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/add_blog.php on line 45
+[22-Aug-2017 08:17:08 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/add_blog.php on line 45
+[22-Aug-2017 08:17:08 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:17:10 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:20:17 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:20:21 UTC] PHP Notice:  Undefined index: id in /home/ncabelin21/public_html/markdown/read.php on line 7
+[22-Aug-2017 08:20:21 UTC] PHP Notice:  Undefined variable: title in /home/ncabelin21/public_html/markdown/read.php on line 52
+[22-Aug-2017 08:20:21 UTC] PHP Notice:  Undefined variable: author in /home/ncabelin21/public_html/markdown/read.php on line 53
+[22-Aug-2017 08:20:21 UTC] PHP Notice:  Undefined variable: str_date in /home/ncabelin21/public_html/markdown/read.php on line 53
+[22-Aug-2017 08:20:21 UTC] PHP Notice:  Undefined variable: content in /home/ncabelin21/public_html/markdown/read.php on line 55
+[22-Aug-2017 08:22:13 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/read.php on line 45
+[22-Aug-2017 08:22:13 UTC] PHP Notice:  Undefined variable: title in /home/ncabelin21/public_html/markdown/read.php on line 52
+[22-Aug-2017 08:22:13 UTC] PHP Notice:  Undefined variable: author in /home/ncabelin21/public_html/markdown/read.php on line 53
+[22-Aug-2017 08:22:13 UTC] PHP Notice:  Undefined variable: str_date in /home/ncabelin21/public_html/markdown/read.php on line 53
+[22-Aug-2017 08:22:13 UTC] PHP Notice:  Undefined variable: content in /home/ncabelin21/public_html/markdown/read.php on line 55
+[22-Aug-2017 08:22:17 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/read.php on line 45
+[22-Aug-2017 08:22:17 UTC] PHP Notice:  Undefined variable: title in /home/ncabelin21/public_html/markdown/read.php on line 52
+[22-Aug-2017 08:22:17 UTC] PHP Notice:  Undefined variable: author in /home/ncabelin21/public_html/markdown/read.php on line 53
+[22-Aug-2017 08:22:17 UTC] PHP Notice:  Undefined variable: str_date in /home/ncabelin21/public_html/markdown/read.php on line 53
+[22-Aug-2017 08:22:17 UTC] PHP Notice:  Undefined variable: content in /home/ncabelin21/public_html/markdown/read.php on line 55
+[22-Aug-2017 08:22:20 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/read.php on line 45
+[22-Aug-2017 08:22:20 UTC] PHP Notice:  Undefined variable: title in /home/ncabelin21/public_html/markdown/read.php on line 52
+[22-Aug-2017 08:22:20 UTC] PHP Notice:  Undefined variable: author in /home/ncabelin21/public_html/markdown/read.php on line 53
+[22-Aug-2017 08:22:20 UTC] PHP Notice:  Undefined variable: str_date in /home/ncabelin21/public_html/markdown/read.php on line 53
+[22-Aug-2017 08:22:20 UTC] PHP Notice:  Undefined variable: content in /home/ncabelin21/public_html/markdown/read.php on line 55
+[22-Aug-2017 08:22:54 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:23:42 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:24:33 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/read.php on line 46
+[22-Aug-2017 08:24:33 UTC] PHP Notice:  Undefined variable: title in /home/ncabelin21/public_html/markdown/read.php on line 53
+[22-Aug-2017 08:24:33 UTC] PHP Notice:  Undefined variable: author in /home/ncabelin21/public_html/markdown/read.php on line 54
+[22-Aug-2017 08:24:33 UTC] PHP Notice:  Undefined variable: str_date in /home/ncabelin21/public_html/markdown/read.php on line 54
+[22-Aug-2017 08:24:33 UTC] PHP Notice:  Undefined variable: content in /home/ncabelin21/public_html/markdown/read.php on line 56
+[22-Aug-2017 08:25:12 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:25:45 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:27:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:27:56 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:27:56 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 08:27:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:28:14 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:28:14 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 08:28:16 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/edit_blog.php on line 33
+[22-Aug-2017 08:28:16 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/edit_blog.php on line 34
+[22-Aug-2017 08:28:22 UTC] PHP Notice:  Undefined variable: message in /home/ncabelin21/public_html/markdown/edit_blog.php on line 56
+[22-Aug-2017 08:28:22 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/edit_blog.php on line 59
+[22-Aug-2017 08:28:22 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:29:51 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:31:26 UTC] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:31:26 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home/ncabelin21/public_html/markdown/read.php on line 11
+[22-Aug-2017 08:34:52 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:34:59 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:35:18 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:35:18 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 08:35:29 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/edit_blog.php on line 33
+[22-Aug-2017 08:35:29 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/edit_blog.php on line 34
+[22-Aug-2017 08:35:33 UTC] PHP Notice:  Undefined variable: message in /home/ncabelin21/public_html/markdown/edit_blog.php on line 56
+[22-Aug-2017 08:35:33 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/edit_blog.php on line 59
+[22-Aug-2017 08:35:34 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:35:37 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:36:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:36:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:36:27 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:36:27 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 08:36:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:37:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:37:09 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:37:09 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 08:37:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:38:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:43:27 UTC] PHP Notice:  Undefined property: mysqli::$mysqli in /home/ncabelin21/public_html/markdown/read.php on line 5
+[22-Aug-2017 08:43:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ncabelin21/public_html/markdown/read.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ncabelin21/public_html/markdown/read.php on line 5
+[22-Aug-2017 08:43:54 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:43:54 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/read.php on line 46
+[22-Aug-2017 08:44:57 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:44:57 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/read.php on line 47
+[22-Aug-2017 08:44:57 UTC] PHP Notice:  Undefined variable: title in /home/ncabelin21/public_html/markdown/read.php on line 54
+[22-Aug-2017 08:44:57 UTC] PHP Notice:  Undefined variable: author in /home/ncabelin21/public_html/markdown/read.php on line 55
+[22-Aug-2017 08:44:57 UTC] PHP Notice:  Undefined variable: str_date in /home/ncabelin21/public_html/markdown/read.php on line 55
+[22-Aug-2017 08:44:57 UTC] PHP Notice:  Undefined variable: content in /home/ncabelin21/public_html/markdown/read.php on line 57
+[22-Aug-2017 08:46:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/ncabelin21/public_html/markdown/read.php on line 24
+[22-Aug-2017 08:46:24 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:46:24 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/read.php on line 48
+[22-Aug-2017 08:46:24 UTC] PHP Notice:  Undefined variable: title in /home/ncabelin21/public_html/markdown/read.php on line 55
+[22-Aug-2017 08:46:24 UTC] PHP Notice:  Undefined variable: author in /home/ncabelin21/public_html/markdown/read.php on line 56
+[22-Aug-2017 08:46:24 UTC] PHP Notice:  Undefined variable: str_date in /home/ncabelin21/public_html/markdown/read.php on line 56
+[22-Aug-2017 08:46:24 UTC] PHP Notice:  Undefined variable: content in /home/ncabelin21/public_html/markdown/read.php on line 58
+[22-Aug-2017 08:46:54 UTC] PHP Warning:  mysqli_stmt::bind_result() expects at least 1 parameter, 0 given in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:46:54 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/read.php on line 48
+[22-Aug-2017 08:46:54 UTC] PHP Notice:  Undefined variable: title in /home/ncabelin21/public_html/markdown/read.php on line 55
+[22-Aug-2017 08:46:54 UTC] PHP Notice:  Undefined variable: author in /home/ncabelin21/public_html/markdown/read.php on line 56
+[22-Aug-2017 08:46:54 UTC] PHP Notice:  Undefined variable: str_date in /home/ncabelin21/public_html/markdown/read.php on line 56
+[22-Aug-2017 08:46:54 UTC] PHP Notice:  Undefined variable: content in /home/ncabelin21/public_html/markdown/read.php on line 58
+[22-Aug-2017 08:48:15 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/read.php on line 48
+[22-Aug-2017 08:48:15 UTC] PHP Notice:  Undefined variable: str_date in /home/ncabelin21/public_html/markdown/read.php on line 56
+[22-Aug-2017 08:48:21 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/read.php on line 48
+[22-Aug-2017 08:48:21 UTC] PHP Notice:  Undefined variable: str_date in /home/ncabelin21/public_html/markdown/read.php on line 56
+[22-Aug-2017 08:49:13 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/read.php on line 49
+[22-Aug-2017 08:49:13 UTC] PHP Notice:  Undefined variable: str_date in /home/ncabelin21/public_html/markdown/read.php on line 57
+[22-Aug-2017 08:49:15 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/read.php on line 49
+[22-Aug-2017 08:49:15 UTC] PHP Notice:  Undefined variable: str_date in /home/ncabelin21/public_html/markdown/read.php on line 57
+[22-Aug-2017 08:52:55 UTC] PHP Notice:  Undefined variable: error in /home/ncabelin21/public_html/markdown/read.php on line 49
+[22-Aug-2017 08:52:55 UTC] PHP Notice:  Undefined variable: str_date in /home/ncabelin21/public_html/markdown/read.php on line 57
+[22-Aug-2017 08:53:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:53:32 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:53:32 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 08:53:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:53:36 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:53:36 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 08:54:04 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:54:04 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 08:54:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ncabelin21/public_html/markdown/read.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ncabelin21/public_html/markdown/read.php on line 10
+[22-Aug-2017 08:54:10 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:54:10 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13
+[22-Aug-2017 08:54:12 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/edit_blog.php on line 33
+[22-Aug-2017 08:54:12 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/edit_blog.php on line 34
+[22-Aug-2017 08:54:15 UTC] PHP Notice:  Undefined index: error in /home/ncabelin21/public_html/markdown/my_blogs.php on line 12
+[22-Aug-2017 08:54:15 UTC] PHP Notice:  Undefined index: message in /home/ncabelin21/public_html/markdown/my_blogs.php on line 13

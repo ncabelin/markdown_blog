@@ -31,6 +31,7 @@ BLOG
 ----> id
 ----> user_id
 ----> date
+----> title
 ----> content
 ```
 

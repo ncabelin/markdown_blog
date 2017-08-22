@@ -1,28 +1,28 @@
 <?php
   session_start();
+  $menu = 'register';
   include('includes/validation.php');
+  $err = '';
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $error = '';
+    include('includes/connection.php');
+    $stmt = $conn->prepare("INSERT INTO user (username, password, email) VALUES (?,?,?)");
+    $stmt->bind_param("sss", $name, $hashed, $email);
     $name = validateFormData($_POST['username']);
     $password = validateFormData($_POST['password']);
     $re_password = validateFormData($_POST['re_password']);
     $email = validateFormData($_POST['email']);
-    include('includes/connection.php');
     $hashed = password_hash($password, PASSWORD_DEFAULT);
-    if (count($password) < 8) {
-      $error .= 'Password needs to be more than 8 characters. <br>';
+    if (strlen($password) < 8) {
+      $err .= 'Password needs to be more than 8 characters. <br>';
     }
     if ($password !== $re_password) {
       $error .= 'Passwords must match. <br>';
     }
-    if ($name && $password && $email && !$error) {
-      $query = "INSERT INTO user (username, password, email) VALUES ('$name', '$hashed', '$email')";
-      $result = mysqli_query($conn, $query);
-      if ($result) {
-        $_SESSION['username'] = $name;
-        header("Location: /index.php");
+    if ($name && $password && $email && !$err) {
+      if ($stmt->execute()) {
+        header("Location: /login.php?message=Succesfully registered, please log-in");
       } else {
-        die(mysqli_error($conn));
+        die('Unable to connect');
       }
     } else {
       $error .= 'Unique Username, Password and E-mail fields required. <br>';
@@ -30,27 +30,8 @@
   }
   include('includes/header.php');
  ?>
-<nav class="navbar navbar-default">
- <div class="container">
-   <div class="navbar-header">
-     <a class="navbar-brand" href="/">Markdown Blog</a>
-   </div>
-   <ul class="nav navbar-nav navbar-right">
-     <li><a href="/">Home</a></li>
-     <?php
-      if ($_SESSION) {
-        echo '<li><a href="/my_blogs.php">My Blogs</a></li>';
-        echo '<li><a href="/logout.php">Logout</a></li>';
-      } else {
-        echo '<li><a href="/login.php">Login</a></li>
-        <li class="active"><a href="/register.php">Register</a></li>';
-      }
-      ?>
-   </ul>
- </div>
-</nav>
-<?php if (count($error) > 0) {
-echo '<div class="alert alert-danger text-center">' . $error . '</div>';
+<?php if (strlen($err) > 0) {
+echo '<div class="alert alert-danger text-center">' . $err . '</div>';
 } ?>
 <div class="container">
   <div class="row">
@@ -80,4 +61,7 @@ echo '<div class="alert alert-danger text-center">' . $error . '</div>';
     </div>
   </div>
 </div>
-<?php include('includes/footer.php'); ?>
+<?php
+include('includes/scripts.php');
+include('includes/footer.php');
+?>

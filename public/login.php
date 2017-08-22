@@ -1,5 +1,6 @@
 <?php
 session_start();
+$menu = 'login';
 include('includes/validation.php');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $username = $_POST['username'];
@@ -10,11 +11,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   if (mysqli_num_rows($result) > 0) {
     while($row = mysqli_fetch_assoc($result)) {
       $hashed_password = $row['password'];
+      $user_id = $row['id'];
     }
     if (password_verify($password, $hashed_password)) {
       // password is correct
+      $_SESSION['user_id'] = $user_id;
       $_SESSION['username'] = $username;
-      header("Location: /index.php");
+      header("Location: /my_blogs.php");
     } else {
       // password is not correct
       $error = 'Username / Password incorrect';
@@ -29,25 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 include('includes/header.php');
 
 ?>
-<nav class="navbar navbar-default">
- <div class="container">
-   <div class="navbar-header">
-     <a class="navbar-brand" href="/">Markdown Blog</a>
-   </div>
-   <ul class="nav navbar-nav navbar-right">
-     <li><a href="/">Home</a></li>
-     <?php
-      if ($_SESSION) {
-        echo '<li><a href="/my_blogs.php">My Blogs</a></li>';
-        echo '<li><a href="/logout.php">Logout</a></li>';
-      } else {
-        echo '<li class="active"><a href="/login.php">Login</a></li>
-        <li><a href="/register.php">Register</a></li>';
-      }
-      ?>
-   </ul>
- </div>
-</nav>
+
 <?php if ($message) {
 echo '<div class="alert alert-success text-center">' . $message . '</div>';
 } ?>
@@ -74,4 +59,7 @@ echo '<div class="alert alert-danger text-center">' . $error . '</div>';
     </div>
   </div>
 </div>
-<?php include('includes/footer.php'); ?>
+<?php
+include('includes/scripts.php');
+include('includes/footer.php');
+?>
