@@ -49,7 +49,7 @@ echo '<div class="alert alert-danger text-center">' . $err . '</div>';
           <input type="password" placeholder="Repeat Password" class="form-control" name="re_password">
         </div>
         <div class="form-group">
-          <input type="email" placeholder="E-mail" class="form-control" name="email">
+          <input type="email" placeholder="E-mail (used for password reset)" class="form-control" name="email">
         </div>
         <input type="submit" value="Register" class="btn btn-default btn-lg">
         <hr>

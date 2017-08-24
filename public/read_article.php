@@ -2,11 +2,12 @@
 session_start();
 $menu = 'blogs';
 include('includes/validation.php');
-include('includes/connection.php');
-$stmt = $conn->prepare("SELECT blog.title, blog.content, blog.date_modified, user.username FROM blog JOIN user WHERE user.id = blog.user_id AND blog.id = ?");
-$stmt->bind_param("s", $blog_id);
-$blog_id = validateFormData($_GET['id']);
-if ($blog_id) {
+$article_id = validateFormData($_GET['id']);
+if ($article_id) {
+  include('includes/connection.php');
+  $query = "SELECT a.title, a.content, a.date_modified, u.username FROM article a JOIN user u ON u.id = a.user_id WHERE a.id = ?";
+  $stmt = $conn->prepare($query);
+  $stmt->bind_param('i', $article_id);
   if ($stmt->execute()) {
     $stmt->bind_result($title, $content, $date, $author);
     $stmt->store_result();
@@ -16,13 +17,14 @@ if ($blog_id) {
       }
     }
   } else {
-    $error = 'Unable to read blog';
+    $error = 'Unable to read article';
   }
 } else {
   $error = 'No id specified';
 }
-
-include('includes/header.php'); ?>
+$conn->close();
+include('includes/header.php');
+?>
 <?php if ($error) {
 echo '<div class="alert alert-danger text-center">' . $error . '</div>';
 } ?>

@@ -10,7 +10,7 @@ if (!$_SESSION['username']) {
   $stmt = $conn->prepare("DELETE FROM blog WHERE user_id = ? AND id = ?");
   $stmt->bind_param("ii", $user_id, $blog_id);
   $user_id = $_SESSION['user_id'];
-  $blog_id = $_POST['blog_id'];
+  $blog_id = validateFormData($_POST['blog_id']);
   if ($stmt->execute()) {
     header('Location: /my_blogs.php?message=Succesfully deleted');
   } else {

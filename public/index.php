@@ -3,7 +3,8 @@ session_start();
 $menu = 'home';
 include('includes/connection.php');
 include('includes/validation.php');
-$query = "SELECT blog.title, blog.id, blog.date_modified, user.username FROM blog JOIN user WHERE user.id = blog.user_id ORDER BY blog.date_modified DESC LIMIT 10";
+
+$query = "SELECT a.title, a.id, a.date_modified, u.username FROM article a JOIN user u ON u.id = a.user_id WHERE a.share = 'y' ORDER BY a.date_modified DESC LIMIT 10";
 $results = mysqli_query($conn, $query);
 ?>
 <!DOCTYPE html>
@@ -118,7 +119,7 @@ include('includes/scripts.php');
 $(function() {
   $('.list-group-item').click(function() {
     var blog_id = $(this).data('id');
-    window.location = '/read.php?id=' + blog_id;
+    window.location = '/read_article.php?id=' + blog_id;
   });
 });
 </script>
