@@ -8,13 +8,12 @@ $stmt->bind_param("s", $blog_id);
 $blog_id = validateFormData($_GET['id']);
 if ($blog_id) {
   if ($stmt->execute()) {
-    $result = $stmt->get_result();
-    while ($row = $result->fetch_assoc()) {
-      $title = validateFormData($row['title']);
-      $content = validateFormData($row['content']);
-      $date = validateFormData($row['date_modified']);
-      $str_date = date("F d, Y", strtotime($date));
-      $author = validateFormData($row['username']);
+    $stmt->bind_result($title, $content, $date, $author);
+    $stmt->store_result();
+    if ($stmt->num_rows > 0) {
+      while ($stmt->fetch()) {
+        $str_date = date("F d, Y", strtotime($date));
+      }
     }
   } else {
     $error = 'Unable to read blog';
